@@ -23,11 +23,42 @@ int main(void)
     // Tu me dis ton âge
     if (age < 11)
     {
-        printf("Tu iras voir un film pour enfant\n");
+        for (int a = 0; a < 3; a++)
+        {
+            // Choix des films pour enfants
+            int answer = printf("Veux-tu regarder %s ? [oui(1)/non(2)]\n", filmCategorieEnfant[a]);
+            scanf("%i", &answer);
+            if (answer == 1)
+            {
+                printf("Bon film !\n");
+                return 0;
+            }
+        }
     }
     else if (age >= 11 && age < 18)
     {
-        printf("Tu iras voir un film pour adolescent\n");
+        for (int a = 0; a < 3; a++)
+        {
+            // Choix des films pour ados
+            int answer = printf("Veux-tu regarder %s ? [oui(1)/non(2)]\n", filmCategorieAdos[a]);
+            scanf("%i", &answer);
+            if (answer == 1)
+            {
+                printf("Bon film !\n");
+                return 0;
+            }
+        }
+        for (int a = 0; a < 3; a++)
+        {
+            // Choix des films pour enfants
+            int answer = printf("Veux-tu regarder %s ? [oui(1)/non(2)]\n", filmCategorieEnfant[a]);
+            scanf("%i", &answer);
+            if (answer == 1)
+            {
+                printf("Bon film !\n");
+                return 0;
+            }
+        }
     }
     else if (age >= 18)
     {
