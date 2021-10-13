@@ -25,6 +25,7 @@ int main(void)
     {
         for (int a = 0; a < 3; a++)
         {
+            printf("Voici un film pour enfants.\n");
             // Choix des films pour enfants
             int answer = printf("Veux-tu regarder %s ? [oui(1)/non(2)]\n", filmCategorieEnfant[a]);
             scanf("%i", &answer);
@@ -39,6 +40,7 @@ int main(void)
     {
         for (int a = 0; a < 3; a++)
         {
+            printf("Voici un film pour ados.\n");
             // Choix des films pour ados
             int answer = printf("Veux-tu regarder %s ? [oui(1)/non(2)]\n", filmCategorieAdos[a]);
             scanf("%i", &answer);
@@ -50,6 +52,7 @@ int main(void)
         }
         for (int a = 0; a < 3; a++)
         {
+            printf("Voici un film pour enfants.\n");
             // Choix des films pour enfants
             int answer = printf("Veux-tu regarder %s ? [oui(1)/non(2)]\n", filmCategorieEnfant[a]);
             scanf("%i", &answer);
@@ -64,6 +67,7 @@ int main(void)
     {
         for (int a = 0; a < 3; a++)
         {
+            printf("Voici un film pour adultes.\n");
             // Choix des films pour adultes
             int answer = printf("Veux-tu regarder %s ? [oui(1)/non(2)]\n", filmCategorieAdulte[a]);
             scanf("%i", &answer);
@@ -75,6 +79,7 @@ int main(void)
         }
         for (int a = 0; a < 3; a++)
         {
+            printf("Voici un film pour ados.\n");
             // Choix des films pour ados
             int answer = printf("Veux-tu regarder %s ? [oui(1)/non(2)]\n", filmCategorieAdos[a]);
             scanf("%i", &answer);
@@ -86,6 +91,7 @@ int main(void)
         }
         for (int a = 0; a < 3; a++)
         {
+            printf("Voici un film pour enfants.\n");
             // Choix des films pour enfants
             int answer = printf("Veux-tu regarder %s ? [oui(1)/non(2)]\n", filmCategorieEnfant[a]);
             scanf("%i", &answer);
